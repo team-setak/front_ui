@@ -31,7 +31,10 @@ export default function Home() {
                 );
               })
             }
-            <tr><th>&nbsp;</th></tr>
+            <tr>
+              <th colSpan={6}>&nbsp;</th>
+              <th colSpan={2}><button className="bg-gray-300 w-full">수정</button></th>
+            </tr>
             <tr>
               <th className="border border-black"></th>
               <th className="border border-black bg-green-200">세탁 수익</th>
